@@ -1,11 +1,11 @@
 
-
+import { input } from "./morse_translator";
 // need to translate alphabet to its morse counter part 
  //should translate a to .-
   //should translate b to -... 
   //^^ for rest of the alphabet
 
-const { input } = require("./morse_translator");
+
 
   //describe
   describe ("translate single letters to morse", ()=> {
@@ -36,4 +36,20 @@ const { input } = require("./morse_translator");
 
   })
 
- 
+  describe ("translate greeting words to morse", ()=> {
+// should translate hello to morse
+// should translate bye to morse
+// should translate how are you to morse
+
+it ("should translate hello to morse ", ()=> {
+  const checkResult= input("hello")
+  expect (checkResult).toBe(".... . .-.. .-.. ---")
+})
+
+it ( "should translate bye to morse", () => {
+  const checkResult= input ("bye")
+  expect (checkResult).toBe("-... -.-- .")
+}) 
+
+  });
+

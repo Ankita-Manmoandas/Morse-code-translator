@@ -1,4 +1,10 @@
-export const input = (letter) => {
+export const input = (englishWord) => {
+
+  //letters to an array 
+  let englishWordArr= englishWord.split ("")
+
+  // convert to morse 
+  const morse = englishWordArr.map ((letter) => {
    if (letter=="a") {
     return (".-");
   } else if (letter== "b") {
@@ -51,17 +57,16 @@ export const input = (letter) => {
     return ("-.--");
   }  else if (letter== "z") {
     return ("--..");
-  } 
-    
-    
-    
-    
+  }
+ 
+})
+return morse.join (" ")
+} 
+// join the array to word
+
+// const inputWord = (word) () => {
+//   let word= hello.split()
+//   console.log (wordHello) 
 
 
-
-
-
-
-}
-
-
+//   }
