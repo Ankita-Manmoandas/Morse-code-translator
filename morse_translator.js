@@ -19,8 +19,43 @@ export const input = (letter) => {
       return ("..");
   } else if (letter== "j") {
     return (".---");
-   } else if (letter== "i") {
-      return ("..");
+  } else if (letter== "k") {
+      return ("-.-");
+  } else if (letter== "l") {
+    return (".-..");
+  } else if (letter== "m") {
+    return ("--");
+  } else if (letter== "n") {
+    return ("-.");
+  } else if (letter== "o") {
+    return ("---");
+  } else if (letter== "p") {
+    return (".--.");
+  } else if (letter== "q") {
+    return ("--.-");
+  } else if (letter== "r") {
+    return (".-.");
+  } else if (letter== "s") {
+    return ("...");
+  } else if (letter== "t") {
+    return ("-");
+  }  else if (letter== "u") {
+    return ("..-");
+  } else if (letter== "v") {
+    return ("...-");
+  } else if (letter== "w") {
+    return (".--");
+  } else if (letter== "x") {
+    return ("-..-");
+  }  else if (letter== "y") {
+    return ("-.--");
+  }  else if (letter== "z") {
+    return ("--..");
+  } 
+    
+    
+    
+    
 
 
 
