@@ -1,5 +1,6 @@
+import {input} from '../morse_translator.js' 
+import {it, expect } from '@jest/globals'; 
 
-import { input } from "./morse_translator";
 // need to translate alphabet to its morse counter part 
  //should translate a to .-
   //should translate b to -... 
