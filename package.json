@@ -1,0 +1,25 @@
+{
+  "name": "morse-code-translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankita-Manmoandas/Morse-code-translator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankita-Manmoandas/Morse-code-translator/issues"
+  },
+  "homepage": "https://github.com/Ankita-Manmoandas/Morse-code-translator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
+  }
+}
