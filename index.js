@@ -1,9 +1,8 @@
-import {input} from '../morse_translator.js' 
-const divElement= document.querySelector("#screen")
-const submitButton= document.querySelector ("#button")
-const inputArea= document.querySelector ("#input")
-
-
+import {input} from './morse_translator.js' 
+const divElement= document.querySelector("#container_screen")
+const submitButton= document.querySelector ("#container_button")
+const inputArea= document.querySelector ("#container_input")
+const resetButton= document.querySelector ("#container_Button_Reset")
 
 
 // we want the input word to be shown on the screen as the user types
@@ -19,3 +18,15 @@ const handleClick = () => {
 
 }
 submitButton.addEventListener ("click", handleClick)
+
+
+
+// reset button- when the reset button is clicked we want to clear the console and remove the stored value
+
+const handleClickReset = () => {
+  inputArea.value=""; 
+  divElement.innerHTML= "" ;
+
+
+}
+resetButton.addEventListener("click", handleClickReset)
