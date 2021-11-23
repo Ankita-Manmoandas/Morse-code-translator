@@ -1,7 +1,7 @@
 export const input = (englishWord) => {
 
   //letters to an array 
-  let englishWordArr= englishWord.split ("")
+  let englishWordArr= englishWord.toLowerCase().split ("")
 
   // convert to morse 
   const morse = englishWordArr.map ((letter) => {
