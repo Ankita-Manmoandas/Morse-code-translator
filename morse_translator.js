@@ -57,12 +57,15 @@ export const input = (englishWord) => {
     return ("-.--");
   }  else if (letter== "z") {
     return ("--..");
+  } else if (letter==" ") {
+    return ("/")
   }
  
 })
+// join the array to word
 return morse.join (" ")
 } 
-// join the array to word
+
 
 // const inputWord = (word) () => {
 //   let word= hello.split()
